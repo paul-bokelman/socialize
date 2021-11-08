@@ -21,9 +21,11 @@ export const Header = (): JSX.Element => {
         </h1>
       </div>
       <div className="flex flex-row items-center">
-        <div className={svgStyles.div}>
-          <BsGithub className={svgStyles.icon} />
-        </div>
+        <a href="https://github.com/paul-bokelman/socialize">
+          <div className={svgStyles.div}>
+            <BsGithub className={svgStyles.icon} />
+          </div>
+        </a>
         <div className={svgStyles.div} onClick={toggleTheme}>
           <CgDarkMode className={svgStyles.icon} />
         </div>
