@@ -4,6 +4,18 @@
   <span><img src="https://socialize-md.vercel.app/api/badge/twitter" alt="twitter" /></span>
   <span><img src="https://socialize-md.vercel.app/api/badge/github" alt="github" /></span>
   <span><img src="https://socialize-md.vercel.app/api/badge/opensea" alt="opensea" /></span>
+  <span><img src="https://socialize-md.vercel.app/api/badge/discord" alt="discord" /></span>
+  <span><img src="https://socialize-md.vercel.app/api/badge/facebook" alt="facebook" /></span>
+  <span><img src="https://socialize-md.vercel.app/api/badge/twitch" alt="twitch" /></span>
+  <span><img src="https://socialize-md.vercel.app/api/badge/youtube" alt="youtube" /></span>
+  <span><img src="https://socialize-md.vercel.app/api/badge/instagram" alt="instagram" /></span>
+  <span><img src="https://socialize-md.vercel.app/api/badge/dribbble" alt="dribbble" /></span>
+  <span><img src="https://socialize-md.vercel.app/api/badge/linkedin" alt="linkedin" /></span>
+  <span><img src="https://socialize-md.vercel.app/api/badge/snapchat" alt="snapchat" /></span>
+  <span><img src="https://socialize-md.vercel.app/api/badge/reddit" alt="reddit" /></span>
+  <span><img src="https://socialize-md.vercel.app/api/badge/tiktok" alt="tiktok" /></span>
+  <span><img src="https://socialize-md.vercel.app/api/badge/stackoverflow" alt="stackoverflow" /></span>
+  <span><img src="https://socialize-md.vercel.app/api/badge/steam" alt="steam" /></span>
 </p>
 
 <p align="center">Elegant social media badges to spice up your markdown at your disposal.</p>
