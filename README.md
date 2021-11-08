@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<h1 align="center">Socialize</h1>
 
-First, run the development server:
+<p align="center">
+  <span><img src="http://localhost:3000/api/badge/twitter" alt="twitter" /></span>
+  <span><img src="http://localhost:3000/api/badge/github" alt="github" /></span>
+  <span><img src="http://localhost:3000/api/badge/opensea" alt="opensea" /></span>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
+
+<p align="center">Elegant social media badges at your disposal. </p>
+
+<h2 id="usage">Usage</h2>
+
+Getting an icon in markdown:
+
+```
+![twitter](http://localhost:3000/api/badge/twitter)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Linking social to icon in markdown:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+[![twitter](http://localhost:3000/api/badge/twitter)](https://twitter.com/your_handle)
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<h2 id="adding-a-new-badge">Adding a new badge</h2>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+To add a new icon you must follow a couple of steps:
 
-## Learn More
+1. Fork this repo and create a new branch.
+2. Add your icon template to the `/assets/server/icons` directory.
+   - In order to properly align icon create a 20x20 pixel box and align 10-12px wide icon in the center both vertically and horizontally.
+   - Icons must be between 10-12 pixels.
+   - Icons must be white (#fff).
+   - Strip all properties except for `path`.
+3. Import and add your icon to the `i` object in `/assets/server/icons/index.ts`.
+4. Navigate to `pages/api/badge/[ico].ts` and add your icon to the switch statement with the desired background color.
+5. Create a pull request and wait for review!
 
-To learn more about Next.js, take a look at the following resources:
+<h2 id="all-current-icons">All current icons</h2>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| Name                             | Icon                                                             |
+| -------------------------------- | ---------------------------------------------------------------- |
+| Github (`github`)                | ![github](http://localhost:3000/api/badge/github)                |
+| Twitter (`twitter`)              | ![twitter](http://localhost:3000/api/badge/twitter)              |
+| Opensea (`opensea`)              | ![opensea](http://localhost:3000/api/badge/opensea)              |
+| Facebook (`facebook`)            | ![facebook](http://localhost:3000/api/badge/facebook)            |
+| Twitch (`twitch`)                | ![twitch](http://localhost:3000/api/badge/twitch)                |
+| Youtube (`youtube`)              | ![youtube](http://localhost:3000/api/badge/youtube)              |
+| Instagram (`instagram`)          | ![instagram](http://localhost:3000/api/badge/instagram)          |
+| Dribbble (`dribbble`)            | ![dribbble](http://localhost:3000/api/badge/dribbble)            |
+| Linkedin (`linkedin`)            | ![linkedin](http://localhost:3000/api/badge/linkedin)            |
+| Snapchat (`snapchat`)            | ![snapchat](http://localhost:3000/api/badge/snapchat)            |
+| Reddit (`redddit`)               | ![reddit](http://localhost:3000/api/badge/reddit)                |
+| Tiktok (`tiktok`)                | ![tiktok](http://localhost:3000/api/badge/tiktok)                |
+| Stack Overflow (`stackoverflow`) | ![stack overflow](http://localhost:3000/api/badge/stackoverflow) |
+| Steam (`steam`)                  | ![steam](http://localhost:3000/api/badge/steam)                  |
