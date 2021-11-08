@@ -1,9 +1,9 @@
 import create from "zustand";
 import { persist } from "zustand/middleware";
 
-let store = (set) => ({
+let store: any = (set: any) => ({
   dark: false,
-  toggleTheme: () => set((state) => ({ dark: !state.dark })),
+  toggleTheme: () => set((state: any) => ({ dark: !state.dark })),
 });
 
 // store = devtools(store);
