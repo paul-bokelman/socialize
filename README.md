@@ -67,7 +67,6 @@ To add a new icon you must follow a couple of steps:
 | Stack Overflow (`stackoverflow`) | ![stack overflow](https://socialize-md.vercel.app/api/badge/stackoverflow) |
 | Steam (`steam`)                  | ![steam](https://socialize-md.vercel.app/api/badge/steam)                  |
 
-<footer>
-  Like this project? Support me with ethereum:
-  0xD4c6325E42fac0625B25C0d4DB40823870986609
-</footer>
+
+ Like this project? Support me with ethereum: 0xD4c6325E42fac0625B25C0d4DB40823870986609
+
