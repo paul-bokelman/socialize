@@ -6,7 +6,7 @@
   <span><img src="https://socialize-md.vercel.app/api/badge/opensea" alt="opensea" /></span>
 </p>
 
-<p align="center">Elegant social media badges at your disposal. </p>
+<p align="center">Elegant social media badges to spice up your markdown at your disposal.</p>
 
 <h2 id="usage">Usage</h2>
 
