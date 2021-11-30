@@ -62,7 +62,7 @@ To add a new icon you must follow a couple of steps:
 | Dribbble (`dribbble`)            | ![dribbble](https://socialize-md.vercel.app/api/badge/dribbble)            |
 | Linkedin (`linkedin`)            | ![linkedin](https://socialize-md.vercel.app/api/badge/linkedin)            |
 | Snapchat (`snapchat`)            | ![snapchat](https://socialize-md.vercel.app/api/badge/snapchat)            |
-| Reddit (`redddit`)               | ![reddit](https://socialize-md.vercel.app/api/badge/reddit)                |
+| Reddit (`reddit`)               | ![reddit](https://socialize-md.vercel.app/api/badge/reddit)                |
 | Tiktok (`tiktok`)                | ![tiktok](https://socialize-md.vercel.app/api/badge/tiktok)                |
 | Stack Overflow (`stackoverflow`) | ![stack overflow](https://socialize-md.vercel.app/api/badge/stackoverflow) |
 | Steam (`steam`)                  | ![steam](https://socialize-md.vercel.app/api/badge/steam)                  |
