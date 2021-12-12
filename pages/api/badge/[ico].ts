@@ -41,6 +41,8 @@ export default function handler(
           return { icon: i.stackoverflow(), color: "#FDFDFD" };
         case "steam":
           return { icon: i.steam(), color: "#00587B" };
+        case "web":
+          return { icon: i.web(), color: "#4984fe" };
         default:
           throw new Error("Invalid icon");
       }

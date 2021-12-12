@@ -13,6 +13,7 @@ import { reddit } from "./reddit";
 import { tiktok } from "./tiktok";
 import { stackoverflow } from "./stackoverflow";
 import { steam } from "./steam";
+import { web } from "./web";
 
 export const i: { [key: string]: () => string } = {
   github,
@@ -30,4 +31,5 @@ export const i: { [key: string]: () => string } = {
   tiktok,
   stackoverflow,
   steam,
+  web,
 };
