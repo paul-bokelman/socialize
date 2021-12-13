@@ -43,6 +43,8 @@ export default function handler(
           return { icon: i.steam(), color: "#00587B" };
         case "web":
           return { icon: i.web(), color: "#4984fe" };
+        case "spotify":
+          return { icon: i.web(), color: "#1ed760" };
         default:
           throw new Error("Invalid icon");
       }

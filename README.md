@@ -6,6 +6,8 @@
   <span><a href="https://socialize-md.vercel.app/api/badge/opensea"><img src="https://socialize-md.vercel.app/api/badge/opensea" alt="opensea" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/discord"><img src="https://socialize-md.vercel.app/api/badge/discord" alt="discord" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/facebook"><img src="https://socialize-md.vercel.app/api/badge/facebook" alt="facebook" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/web"><img src="https://socialize-md.vercel.app/api/badge/web" 
+  alt="web" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/twitch"><img src="https://socialize-md.vercel.app/api/badge/twitch" alt="twitch" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/youtube"><img src="https://socialize-md.vercel.app/api/badge/youtube" alt="youtube" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/instagram"><img src="https://socialize-md.vercel.app/api/badge/instagram" alt="instagram" /></a></span>
@@ -16,6 +18,7 @@
   <span><a href="https://socialize-md.vercel.app/api/badge/tiktok"><img src="https://socialize-md.vercel.app/api/badge/tiktok" alt="tiktok" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/stackoverflow"><img src="https://socialize-md.vercel.app/api/badge/stackoverflow" alt="stackoverflow" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/steam"><img src="https://socialize-md.vercel.app/api/badge/steam" alt="steam" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/spotify"><img src="https://socialize-md.vercel.app/api/badge/spotify" alt="spotify" /></a></span>
 </p>
 
 <p align="center">Elegant social media badges to spice up your markdown at your disposal.</p>
@@ -67,5 +70,6 @@ To add a new icon you must follow a couple of steps:
 | Tiktok (`tiktok`)                | ![tiktok](https://socialize-md.vercel.app/api/badge/tiktok)                |
 | Stack Overflow (`stackoverflow`) | ![stack overflow](https://socialize-md.vercel.app/api/badge/stackoverflow) |
 | Steam (`steam`)                  | ![steam](https://socialize-md.vercel.app/api/badge/steam)                  |
+| Spotify (`spotify`)              | ![spotify](https://socialize-md.vercel.app/api/badge/spotify)              |
 
 <sub>Like this project? Support me with ethereum: 0xD4c6325E42fac0625B25C0d4DB40823870986609</sub>
