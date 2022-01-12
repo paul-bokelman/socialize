@@ -11,7 +11,7 @@
   <span><a href="https://socialize-md.vercel.app/api/badge/reddit"><img src="https://socialize-md.vercel.app/api/badge/reddit" alt="reddit" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/snapchat"><img src="https://socialize-md.vercel.app/api/badge/snapchat" alt="snapchat" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/spotify"><img src="https://socialize-md.vercel.app/api/badge/spotify" alt="spotify" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/stackoverflow"><img src="https://socialize-md.vercel.app/api/badge stackoverflow" alt="stackoverflow" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/stackoverflow"><img src="https://socialize-md.vercel.app/api/badge/stackoverflow" alt="stackoverflow" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/steam"><img src="https://socialize-md.vercel.app/api/badge/steam" alt="steam" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/tiktok"><img src="https://socialize-md.vercel.app/api/badge/tiktok" alt="tiktok" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/twitch"><img src="https://socialize-md.vercel.app/api/badge/twitch" alt="twitch" /></a></span>
