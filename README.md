@@ -1,24 +1,24 @@
 <h1 align="center">Socialize</h1>
 
 <p align="center">
-  <span><a href="https://socialize-md.vercel.app/api/badge/twitter"><img src="https://socialize-md.vercel.app/api/badge/twitter" alt="twitter" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/github"><img src="https://socialize-md.vercel.app/api/badge/github" alt="github" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/opensea"><img src="https://socialize-md.vercel.app/api/badge/opensea" alt="opensea" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/discord"><img src="https://socialize-md.vercel.app/api/badge/discord" alt="discord" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/dribbble"><img src="https://socialize-md.vercel.app/api/badge/dribbble" alt="dribbble" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/facebook"><img src="https://socialize-md.vercel.app/api/badge/facebook" alt="facebook" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/github"><img src="https://socialize-md.vercel.app/api/badge/github" alt="github" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/instagram"><img src="https://socialize-md.vercel.app/api/badge/instagram" alt="instagram" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/linkedin"><img src="https://socialize-md.vercel.app/api/badge/linkedin" alt="linkedin" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/opensea"><img src="https://socialize-md.vercel.app/api/badge/opensea" alt="opensea" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/reddit"><img src="https://socialize-md.vercel.app/api/badge/reddit" alt="reddit" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/snapchat"><img src="https://socialize-md.vercel.app/api/badge/snapchat" alt="snapchat" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/spotify"><img src="https://socialize-md.vercel.app/api/badge/spotify" alt="spotify" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/stackoverflow"><img src="https://socialize-md.vercel.app/api/badge stackoverflow" alt="stackoverflow" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/steam"><img src="https://socialize-md.vercel.app/api/badge/steam" alt="steam" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/tiktok"><img src="https://socialize-md.vercel.app/api/badge/tiktok" alt="tiktok" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/twitch"><img src="https://socialize-md.vercel.app/api/badge/twitch" alt="twitch" /></a></span>
+  <span><a href="https://socialize-md.vercel.app/api/badge/twitter"><img src="https://socialize-md.vercel.app/api/badge/twitter" alt="twitter" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/web"><img src="https://socialize-md.vercel.app/api/badge/web" 
   alt="web" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/twitch"><img src="https://socialize-md.vercel.app/api/badge/twitch" alt="twitch" /></a></span>
   <span><a href="https://socialize-md.vercel.app/api/badge/youtube"><img src="https://socialize-md.vercel.app/api/badge/youtube" alt="youtube" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/instagram"><img src="https://socialize-md.vercel.app/api/badge/instagram" alt="instagram" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/dribbble"><img src="https://socialize-md.vercel.app/api/badge/dribbble" alt="dribbble" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/linkedin"><img src="https://socialize-md.vercel.app/api/badge/linkedin" alt="linkedin" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/snapchat"><img src="https://socialize-md.vercel.app/api/badge/snapchat" alt="snapchat" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/reddit"><img src="https://socialize-md.vercel.app/api/badge/reddit" alt="reddit" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/tiktok"><img src="https://socialize-md.vercel.app/api/badge/tiktok" alt="tiktok" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/stackoverflow"><img src="https://socialize-md.vercel.app/api/badge/stackoverflow" alt="stackoverflow" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/steam"><img src="https://socialize-md.vercel.app/api/badge/steam" alt="steam" /></a></span>
-  <span><a href="https://socialize-md.vercel.app/api/badge/spotify"><img src="https://socialize-md.vercel.app/api/badge/spotify" alt="spotify" /></a></span>
 </p>
 
 <p align="center">Elegant social media badges to spice up your markdown at your disposal.</p>
@@ -46,7 +46,7 @@ To add a new icon you must follow a couple of steps:
    - In order to properly align icon create a 20x20 pixel box and align 10-12px wide icon in the center both vertically and horizontally.
    - Icons must be between 10-12 pixels.
    - Icons must be white (#fff).
-   - Strip all properties except for `path`.
+   - Strip all svg properties except for `path`.
 3. Import and add your icon to the `i` object in `/assets/server/icons/index.ts`.
 4. Navigate to `pages/api/badge/[ico].ts` and add your icon to the switch statement with the desired background color.
 5. Create a pull request and wait for review!
@@ -55,21 +55,22 @@ To add a new icon you must follow a couple of steps:
 
 | Name                             | Icon                                                                       |
 | -------------------------------- | -------------------------------------------------------------------------- |
-| Github (`github`)                | ![github](https://socialize-md.vercel.app/api/badge/github)                |
-| Twitter (`twitter`)              | ![twitter](https://socialize-md.vercel.app/api/badge/twitter)              |
-| Opensea (`opensea`)              | ![opensea](https://socialize-md.vercel.app/api/badge/opensea)              |
-| Facebook (`facebook`)            | ![facebook](https://socialize-md.vercel.app/api/badge/facebook)            |
-| Web (`web`)                      | ![web](https://socialize-md.vercel.app/api/badge/web)                      |
-| Twitch (`twitch`)                | ![twitch](https://socialize-md.vercel.app/api/badge/twitch)                |
-| Youtube (`youtube`)              | ![youtube](https://socialize-md.vercel.app/api/badge/youtube)              |
-| Instagram (`instagram`)          | ![instagram](https://socialize-md.vercel.app/api/badge/instagram)          |
+| Discord (`discord`)              | ![discord](https://socialize-md.vercel.app/api/badge/discord)                |
 | Dribbble (`dribbble`)            | ![dribbble](https://socialize-md.vercel.app/api/badge/dribbble)            |
+| Facebook (`facebook`)            | ![facebook](https://socialize-md.vercel.app/api/badge/facebook)            |
+| Github (`github`)                | ![github](https://socialize-md.vercel.app/api/badge/github)                |
+| Instagram (`instagram`)          | ![instagram](https://socialize-md.vercel.app/api/badge/instagram)          |
 | Linkedin (`linkedin`)            | ![linkedin](https://socialize-md.vercel.app/api/badge/linkedin)            |
-| Snapchat (`snapchat`)            | ![snapchat](https://socialize-md.vercel.app/api/badge/snapchat)            |
+| Opensea (`opensea`)              | ![opensea](https://socialize-md.vercel.app/api/badge/opensea)              |
 | Reddit (`reddit`)                | ![reddit](https://socialize-md.vercel.app/api/badge/reddit)                |
-| Tiktok (`tiktok`)                | ![tiktok](https://socialize-md.vercel.app/api/badge/tiktok)                |
+| Snapchat (`snapchat`)            | ![snapchat](https://socialize-md.vercel.app/api/badge/snapchat)            |
+| Spotify (`spotify`)              | ![spotfiy](https://socialize-md.vercel.app/api/badge/spotify)              |
 | Stack Overflow (`stackoverflow`) | ![stack overflow](https://socialize-md.vercel.app/api/badge/stackoverflow) |
 | Steam (`steam`)                  | ![steam](https://socialize-md.vercel.app/api/badge/steam)                  |
-| Spotify (`spotify`)              | ![spotify](https://socialize-md.vercel.app/api/badge/spotify)              |
+| Tiktok (`tiktok`)                | ![tiktok](https://socialize-md.vercel.app/api/badge/tiktok)                |
+| Twitch (`twitch`)                | ![twitch](https://socialize-md.vercel.app/api/badge/twitch)                |
+| Twitter (`twitter`)              | ![twitter](https://socialize-md.vercel.app/api/badge/twitter)              |
+| Web (`web`)                      | ![web](https://socialize-md.vercel.app/api/badge/web)                      |
+| Youtube (`youtube`)              | ![youtube](https://socialize-md.vercel.app/api/badge/youtube)              |
 
 <sub>Like this project? Support me with ethereum: 0xD4c6325E42fac0625B25C0d4DB40823870986609</sub>

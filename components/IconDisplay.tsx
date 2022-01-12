@@ -2,23 +2,23 @@ import React from "react";
 
 export const IconDisplay = (): JSX.Element => {
   const icons = [
-    <Twitter key={1} />,
-    <Github key={2} />,
-    <OpenSea key={3} />,
-    <Discord key={4} />,
-    <Facebook key={5} />,
-    <Twitch key={6} />,
-    <Youtube key={7} />,
-    <Instagram key={8} />,
-    <Dribbble key={9} />,
-    <LinkedIn key={10} />,
-    <Snapchat key={11} />,
-    <Reddit key={12} />,
-    <Tiktok key={13} />,
-    <Stackoverflow key={14} />,
-    <Steam key={15} />,
+    <Discord key={1} />,
+    <Dribbble key={2} />,
+    <Facebook key={3} />,
+    <Github key={4} />,
+    <Instagram key={5} />,
+    <LinkedIn key={6} />,
+    <OpenSea key={7} />,
+    <Reddit key={8} />,
+    <Snapchat key={9} />,
+    <Spotify key={10} />,
+    <StackOverflow key={11} />,
+    <Steam key={12} />,
+    <TikTok key={13} />,
+    <Twitch key={14} />,
+    <Twitter key={15} />,
     <Web key={16} />,
-    <Spotify key={17} />,
+    <YouTube key={17} />,
   ];
 
   return (
@@ -193,7 +193,7 @@ const Twitch = () => (
   </svg>
 );
 
-const Youtube = () => (
+const YouTube = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="20"
@@ -347,7 +347,7 @@ const Reddit = () => (
   </svg>
 );
 
-const Tiktok = () => (
+const TikTok = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="20"
@@ -372,7 +372,7 @@ const Tiktok = () => (
   </svg>
 );
 
-const Stackoverflow = () => (
+const StackOverflow = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="20"
