@@ -15,6 +15,7 @@ import { stackoverflow } from "./stackoverflow";
 import { steam } from "./steam";
 import { web } from "./web";
 import { spotify } from "./spotify";
+import { mail} from "./mail";
 
 export const i: { [key: string]: () => string } = {
   github,
@@ -34,4 +35,5 @@ export const i: { [key: string]: () => string } = {
   steam,
   web,
   spotify,
+  mail,
 };

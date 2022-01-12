@@ -45,6 +45,8 @@ export default function handler(
           return { icon: i.web(), color: "#4984fe" };
         case "spotify":
           return { icon: i.spotify(), color: "#1ed760" };
+        case "mail":
+          return { icon: i.mail(), color: "#b60000" };
         default:
           throw new Error("Invalid icon");
       }
